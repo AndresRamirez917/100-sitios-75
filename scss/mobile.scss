@@ -1,5 +1,5 @@
 //mainheader
-#mainheader {
+#mainheader, #mainheader-2 {
     .navbar {
         .logo {
             display: block;
@@ -27,12 +27,7 @@
             margin: 0 auto;
             text-align: center;
           }
-            .showcase-buttons {
-                display: block;
-                .btn {
-                    margin-bottom: 1rem;
-                }
-            }
+           
         }
     }
 }
@@ -57,3 +52,4 @@
         }
     }
 }
+

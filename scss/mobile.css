@@ -1,32 +1,26 @@
-#mainheader .navbar .logo {
+#mainheader .navbar .logo, #mainheader-2 .navbar .logo {
   display: block;
   margin: 0 auto;
   text-align: center;
   padding-top: 2rem;
 }
-#mainheader .navbar ul {
+#mainheader .navbar ul, #mainheader-2 .navbar ul {
   display: block;
   text-align: center;
 }
-#mainheader .navbar li {
+#mainheader .navbar li, #mainheader-2 .navbar li {
   margin: 2rem 0;
   margin-left: 1rem;
 }
-#mainheader .navbar .container {
+#mainheader .navbar .container, #mainheader-2 .navbar .container {
   display: block;
 }
-#mainheader #showcase .showcase-flex {
+#mainheader #showcase .showcase-flex, #mainheader-2 #showcase .showcase-flex {
   display: block;
 }
-#mainheader #showcase .showcase-flex h1 {
+#mainheader #showcase .showcase-flex h1, #mainheader-2 #showcase .showcase-flex h1 {
   margin: 0 auto;
   text-align: center;
-}
-#mainheader #showcase .showcase-flex .showcase-buttons {
-  display: block;
-}
-#mainheader #showcase .showcase-flex .showcase-buttons .btn {
-  margin-bottom: 1rem;
 }
 
 #gifts .gift-flex {
