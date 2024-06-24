@@ -22,9 +22,17 @@
   margin: 0 auto;
   text-align: center;
 }
+#mainheader #showcase .showcase-flex .showcase-buttons, #mainheader-2 #showcase .showcase-flex .showcase-buttons {
+  display: block;
+}
+#mainheader #showcase .showcase-flex .showcase-buttons .btn, #mainheader-2 #showcase .showcase-flex .showcase-buttons .btn {
+  margin-bottom: 2rem;
+}
 
 #gifts .gift-flex {
   display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 #gifts .gift-flex .box {
   margin-bottom: 2rem;
@@ -32,6 +40,8 @@
 
 #dinner .dinner-flex, #dinner .gift-flex, #dinner .show-flex, #gift .dinner-flex, #gift .gift-flex, #gift .show-flex, #show .dinner-flex, #show .gift-flex, #show .show-flex {
   display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 #dinner .dinner-flex p, #dinner .gift-flex p, #dinner .show-flex p, #gift .dinner-flex p, #gift .gift-flex p, #gift .show-flex p, #show .dinner-flex p, #show .gift-flex p, #show .show-flex p {
   text-align: justify;
