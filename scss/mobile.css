@@ -1,1 +1,45 @@
-/*# sourceMappingURL=mobile.css.map */
+#mainheader .navbar .logo {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2rem;
+}
+#mainheader .navbar ul {
+  display: block;
+  text-align: center;
+}
+#mainheader .navbar li {
+  margin: 2rem 0;
+  margin-left: 1rem;
+}
+#mainheader .navbar .container {
+  display: block;
+}
+#mainheader #showcase .showcase-flex {
+  display: block;
+}
+#mainheader #showcase .showcase-flex h1 {
+  margin: 0 auto;
+  text-align: center;
+}
+#mainheader #showcase .showcase-flex .showcase-buttons {
+  display: block;
+}
+#mainheader #showcase .showcase-flex .showcase-buttons .btn {
+  margin-bottom: 1rem;
+}
+
+#gifts .gift-flex {
+  display: block;
+}
+#gifts .gift-flex .box {
+  margin-bottom: 2rem;
+}
+
+#dinner .dinner-flex, #dinner .gift-flex, #dinner .show-flex, #gift .dinner-flex, #gift .gift-flex, #gift .show-flex, #show .dinner-flex, #show .gift-flex, #show .show-flex {
+  display: block;
+}
+#dinner .dinner-flex p, #dinner .gift-flex p, #dinner .show-flex p, #gift .dinner-flex p, #gift .gift-flex p, #gift .show-flex p, #show .dinner-flex p, #show .gift-flex p, #show .show-flex p {
+  text-align: justify;
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=mobile.css.map */
