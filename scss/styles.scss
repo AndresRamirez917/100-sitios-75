@@ -86,20 +86,19 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     .navbar {
+        margin-bottom: 4rem;
         .logo {
             font-size: 2rem;
             margin-top: 2rem;
         }
         ul {
             display: flex;
-      
-            margin-top: 3rem;
-            
+            margin-top: 3rem;     
         }  
         li {
             display: inline-block;
             margin-left: 1rem;
-          
+          margin-bottom: 2rem;
         } 
         .container {
             display: flex;
@@ -124,16 +123,16 @@ img {
                 margin-bottom: 2rem;
             }
             .button-1 {
-                display: block;
+                // display: block;
                 margin: 0 auto;
                 padding: 10px 50px;
-                text-align: center;
-                text-transform: uppercase;
-                border-radius: 50px;
-                color: #fff;
+                // text-align: center;
+                // text-transform: uppercase;
+                // border-radius: 50px;
+                // color: #fff;
                 background: red;
-                border: 1px solid #fff;
-                cursor: pointer;
+                border: 2px solid #fff;
+                // cursor: pointer;
             }
         }
         .showcase-flex {
@@ -147,15 +146,16 @@ img {
             .showcase-buttons {
                 margin-top: 3rem;
                 .button-2 {
-                    display: block;
-                margin: 0 auto;
-                padding: 10px 80px;
-                text-align: center;
-                text-transform: uppercase;
-                border-radius: 50px;
-                color: #fff;
-                border: 1px solid #fff;
-                cursor: pointer;
+                    // display: block;
+                    margin: 0 auto;
+                    // padding: 10px 80px;
+                    // text-align: center;
+                    // text-transform: uppercase;
+                    // border-radius: 50px;
+                    // color: #fff;
+                    border: 2px solid #fff;
+                    background: none;
+                    cursor: pointer;
                 }
             }
         }
@@ -173,23 +173,20 @@ img {
             margin-top: 2rem;
         }
         ul {
-            display: flex;
-      
+            display: flex;    
             margin-top: 3rem;
             
         }  
         li {
             display: inline-block;
-            margin-left: 1rem;
-          
+            margin-left: 1rem;          
         } 
         .container {
             display: flex;
             justify-content: space-between;
             width: 100%;
         }
-    }
-    
+    }  
 }
 
 //no
@@ -216,8 +213,7 @@ img {
                 display: block;
                 background: red;
                 width: fit-content;
-                margin: 0 auto;
-                
+                margin: 0 auto;             
             }
         }
     }

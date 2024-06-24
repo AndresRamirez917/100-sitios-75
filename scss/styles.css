@@ -82,6 +82,9 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#mainheader .navbar {
+  margin-bottom: 4rem;
+}
 #mainheader .navbar .logo {
   font-size: 2rem;
   margin-top: 2rem;
@@ -93,6 +96,7 @@ img {
 #mainheader .navbar li {
   display: inline-block;
   margin-left: 1rem;
+  margin-bottom: 2rem;
 }
 #mainheader .navbar .container {
   display: flex;
@@ -116,16 +120,10 @@ img {
   margin-bottom: 2rem;
 }
 #mainheader #showcase .showcase-text .button-1 {
-  display: block;
   margin: 0 auto;
   padding: 10px 50px;
-  text-align: center;
-  text-transform: uppercase;
-  border-radius: 50px;
-  color: #fff;
   background: red;
-  border: 1px solid #fff;
-  cursor: pointer;
+  border: 2px solid #fff;
 }
 #mainheader #showcase .showcase-flex h1 {
   color: #fff;
@@ -138,14 +136,9 @@ img {
   margin-top: 3rem;
 }
 #mainheader #showcase .showcase-flex .showcase-buttons .button-2 {
-  display: block;
   margin: 0 auto;
-  padding: 10px 80px;
-  text-align: center;
-  text-transform: uppercase;
-  border-radius: 50px;
-  color: #fff;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
+  background: none;
   cursor: pointer;
 }
 
