@@ -35,10 +35,10 @@ ul {
 
 .btn {
   display: block;
-  padding: 10px 20px;
+  padding: 10px 80px;
   text-align: center;
   text-transform: uppercase;
-  border-radius: 4px;
+  border-radius: 50px;
   color: #fff;
   cursor: pointer;
 }
@@ -48,8 +48,12 @@ ul {
   color: violet;
 }
 
+.bk {
+  background: red;
+}
+
 .title {
-  font-size: 4rem;
+  font-size: 5rem;
   text-align: center;
 }
 
@@ -72,7 +76,130 @@ img {
   height: 100vh;
 }
 
+#mainheader {
+  background: url(/img/showcase.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#mainheader .navbar .logo {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+#mainheader .navbar ul {
+  display: flex;
+  margin-top: 3rem;
+}
+#mainheader .navbar li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+#mainheader .navbar .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#mainheader #showcase .showcase-text {
+  margin-top: 10rem;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+#mainheader #showcase .showcase-text h1 {
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+#mainheader #showcase .showcase-text p {
+  color: #fff;
+  line-height: 40px;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+#mainheader #showcase .showcase-text .button-1 {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 50px;
+  color: #fff;
+  background: red;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+#mainheader #showcase .showcase-flex h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+#mainheader #showcase .showcase-flex .btn {
+  background: red;
+}
+#mainheader #showcase .showcase-flex .showcase-buttons {
+  margin-top: 3rem;
+}
+#mainheader #showcase .showcase-flex .showcase-buttons .button-2 {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 80px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 50px;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+#mainheader-2 {
+  background: url(/img/no.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#mainheader-2 .navbar .logo {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+#mainheader-2 .navbar ul {
+  display: flex;
+  margin-top: 3rem;
+}
+#mainheader-2 .navbar li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+#mainheader-2 .navbar .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#no h1 {
+  text-align: center;
+  margin-top: 20rem;
+  margin-bottom: 19rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+#gift {
+  margin-top: 6rem;
+}
+#gift .gift-flex {
+  margin-bottom: 2rem;
+}
+#gift .gift-flex .box-1 img {
+  margin-bottom: 1rem;
+}
+#gift .gift-flex .box-1 .btn {
+  display: block;
+  background: red;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
 #footer {
   text-align: center;
   padding: 3rem 0;
+  background: red;
 }/*# sourceMappingURL=styles.css.map */
